@@ -1,0 +1,21 @@
+GitHub est un site de partage de code, sur lequel on peut publier des projets dont le code est géré avec le système de gestion de version Git.
+Pour travailler sur GitHub il faut d'bort créer un compte et installer git sur le windows ou l'iMac.
+Pour commencer à faire une projet sur Github, il faut d'abord relier le compte à l'ordinateur en tapant sur l'invite de commande la commande git clone suivi du lien https se trouvant dans la partie  code du compte GitHub. 
+
+Ensuite créer un repository et le nommer, créer le dossier et le fichier dans lequel sera notre projet puis créer un nouveau dépôt en suivant les étapes de l'exemple ci dessous:
+
+echo "# NAN_exo" >> LISEZMOI.md 
+git init 
+git add LISEZMOI.md 
+git commit -m "first commit" 
+git branch -M main 
+git remote add origin https://github.com/Yasmineaka/NAN_exo.git
+ git push - votre origine principale
+
+Ou pousser un dépôt existant depuis la ligne de commande:
+
+git remote add origin https://github.com/Yasmineaka/NAN_exo.git
+ git branch -M main 
+git push -u origin main
+
+AU final terminer le projet le mettre en ligne et apporter des modifications en utilisant
