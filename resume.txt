@@ -18,4 +18,4 @@ git remote add origin https://github.com/Yasmineaka/NAN_exo.git
  git branch -M main 
 git push -u origin main
 
-AU final terminer le projet le mettre en ligne et apporter des modifications en utilisant
+AU final terminer le projet le mettre en ligne et apporter des modifications quand on le souhaite.
